@@ -1,19 +1,3 @@
-/**
-	linked list : 연결리스트
-	특징 노드로 구성 되어있다.
-	노드에는 값과 다음 값을 가르키는 주소를 가지고 있다.
-	
-	장점
-	크기 제한이 없다?
-	중간 삽입, 삭제가 array에 비할때 쉽다.
-	삽입, 삭제 비용 O(1)
-	
-	단점
-	탐색 단방향
-	탐색 비용 O(n)
-	
- */
-
 let linked_list = function() {
 	this.length = 0;
 	this.headNode = new node(null);
@@ -106,5 +90,3 @@ list.add(3,1);
 list.add(1);
 list.remove();
 list.remove(3);
-
-
