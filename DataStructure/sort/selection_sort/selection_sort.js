@@ -6,7 +6,7 @@ for (let i = 0; i < ex.length; i++) {
 			let tmp = ex[i]
 			ex[i] = ex[j];
 			ex[j] = tmp;
-			//console.log(ex.toString());			
+			console.log(ex.toString() + ' i = ' + i + ', j = ' + j);			
 		}
 	}
 }

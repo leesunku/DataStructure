@@ -46,7 +46,7 @@ let linked_list = function (e) {
 	return that
 }
 
-var linkedList = new linked_list();
+let linkedList = new linked_list();
 linkedList.add(1);
 linkedList.add(2);
 linkedList.add(3);
